@@ -5,7 +5,7 @@ export default function SplitBill() {
       <h2>split a bill with ...</h2>
       <label className="label">💰 Bill Value </label>
       <input type="text" />
-      <label className="label">👀 Your Expence </label>
+      <label className="label">💼 Your Expence </label>
       <input type="text" />
       <label className="label">😏 ..... Expence </label>
       <input type="text" disabled />
