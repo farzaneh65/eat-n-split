@@ -7,7 +7,7 @@ export default function SplitBill() {
       <input type="text" />
       <label className="label">💼 Your Expence </label>
       <input type="text" />
-      <label className="label">😏 ..... Expence </label>
+      <label className="label">😏 ....... Expence </label>
       <input type="text" disabled />
       <label className="label">😒 Who is paying the bill? </label>
       <select>
