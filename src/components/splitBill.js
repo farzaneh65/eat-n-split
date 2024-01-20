@@ -11,7 +11,7 @@ export default function SplitBill() {
       <input type="text" disabled />
       <label className="label">😒 Who is paying the bill? </label>
       <select>
-        <option>You!!</option>
+        <option>You X!!</option>
         <option>...</option>
       </select>
       <Button>Split Bill</Button>
