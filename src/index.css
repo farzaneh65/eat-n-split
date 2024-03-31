@@ -44,6 +44,11 @@ body {
   transition: 0.3s;
 }
 
+.btn-disabled {
+  background-color: grey !important;
+  cursor: not-allowed;
+}
+
 .button:hover {
   background-color: var(--color-dark);
 }

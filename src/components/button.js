@@ -1,14 +1,20 @@
-export default function Button({ children, onSetShowForm, showAddForm }) {
+export default function Button({
+  children,
+  onClick,
+  onSetShowForm,
+  showAddForm,
+  itemKey,
+  onSelectFriend,
+  showSplitBill,
+  onCloseFriend,
+  selected,
+}) {
   return (
     <button
       className="button"
-      onClick={
-        children === "Add Friend" && !showAddForm
-          ? () => onSetShowForm(!showAddForm)
-          : children === "Close" && showAddForm
-          ? () => onSetShowForm(!showAddForm)
-          : undefined
-      }
+      disabled={!selected && showSplitBill}
+      style={!selected && showSplitBill ? { background: "grey" } : {}}
+      onClick={onClick}
     >
       {children}
     </button>
